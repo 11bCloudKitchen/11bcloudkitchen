@@ -1,0 +1,105 @@
+.nav-bar a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 10px;
+}
+
+.nav-bar .logo {
+  font-size: 1.7rem;
+  color: rgba(255, 255, 255, 0.8274509804);
+  cursor: pointer;
+  user-select: none;
+  text-transform: uppercase;
+  z-index: 1000;
+  font-weight: bold;
+}
+
+.nav-bar .btn {
+  width: 40px;
+  z-index: 1000;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-bar .btn img {
+  width: inherit;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar ul li {
+  list-style: none;
+  margin-right: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.nav-bar ul li a {
+  padding: 10px;
+}
+
+.nav-bar ul li a:hover {
+  color: #a81c1c;
+}
+
+@media (max-width: 700px) {
+  .nav-bar ul {
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    background-color: #481374;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    margin-top: -1500px;
+    transition: all 1s;
+    border-radius: 0 0 40% 0;
+  }
+  
+  .nav-bar ul li {
+    margin-bottom: 2.5rem;
+  }
+  
+  .nav-bar ul li a {
+    font-size: 1.5rem;
+  }
+  
+  .nav-bar ul li a:hover {
+    color: rgba(255, 255, 255, 0.8274509804);
+  }
+  
+  .nav-bar .btn {
+    display: block;
+  }
+
+  .nav-bar .show {
+    margin-top: 0;
+  }
+}
+
+@media (max-height: 510px) {
+  .nav-bar ul li {
+    margin-bottom: 1.5rem;
+  }
+  .header-container .nav-bar ul li a {
+    font-size: 1rem;
+  }
+}
