@@ -58,7 +58,8 @@ header a:hover {
 
 .breakfast-heading,
 .dinner-heading,
-.sunday-heading {
+.sunday-heading,
+.contact-heading{
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -66,20 +67,21 @@ header a:hover {
 
 .breakfast-img,
 .dinner-img,
-.sunday-img {
+.sunday-img,
+.contact-img{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-    
 }
 
-img {
+.menu-img {
   max-height: 550px;
   max-width: 300px;
   margin: 10px;
   padding: 10px;
 }
 
-contact-link {
-
+.contact-img {
+  max-height: 50px;
+  max-width: 50px;
 }
