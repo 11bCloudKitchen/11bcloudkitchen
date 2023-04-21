@@ -60,6 +60,10 @@ header a:hover {
   justify-content: center;
 }
 
+.breakfast-heading {
+  margin-top: 50px;
+}
+
 .breakfast-img,
 .dinner-img,
 .sunday-img{
