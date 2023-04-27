@@ -19,7 +19,8 @@
     transition: 0.2s ease;
   }
   nav .mainMenu li a:hover {
-    background: rgb(255, 94, 0);
+    font-size: 11;
+    background: rgb(0, 201, 251);
   }
   nav .openMenu {
     font-size: 2rem;
@@ -33,16 +34,13 @@
     display: none;
     cursor: pointer;
   }
-  .fa-facebook:hover {
+  .fa-google:hover {
     color: rgb(0, 110, 255);
-  }
-  .fa-twitter:hover {
-    color: rgb(86, 154, 243);
   }
   .fa-instagram:hover {
     color: rgb(255, 0, 191);
   }
-  .fa-github:hover {
+  .fa-youtube:hover {
     color: rgb(255, 123, 0);
   }
 
